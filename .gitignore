@@ -1,0 +1,5 @@
+VOCdevkit/VOC2007/Annotations/*
+VOCdevkit/VOC2007/Annotations_voc/*
+VOCdevkit/VOC2007/ImageSets/*
+VOCdevkit/VOC2007/JPEGImages/*
+VOCdevkit/VOC2007/JPEGImages_voc/*

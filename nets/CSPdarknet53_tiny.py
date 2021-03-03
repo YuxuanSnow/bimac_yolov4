@@ -22,7 +22,6 @@ class BasicConv(nn.Module):
         x = self.activation(x)
         return x
 
-         
 '''
                     input
                       |

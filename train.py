@@ -152,7 +152,8 @@ if __name__ == "__main__":
     #   训练前一定要修改classes_path，使其对应自己的数据集
     #----------------------------------------------------#
     anchors_path = 'model_data/yolo_anchors.txt'
-    classes_path = 'model_data/voc_classes.txt'   
+    #classes_path = 'model_data/voc_classes.txt'
+    classes_path = 'model_data/bimac_classes.txt'
     #----------------------------------------------------#
     #   获取classes和anchor
     #----------------------------------------------------#
@@ -180,7 +181,8 @@ if __name__ == "__main__":
     #------------------------------------------------------#
     #   权值文件请看README，百度网盘下载
     #------------------------------------------------------#
-    model_path = "model_data/yolov4_tiny_weights_coco.pth"
+    #model_path = "model_data/yolov4_tiny_weights_voc.pth"
+    model_path = "model_data/bimac_4.pth"
     # 加快模型训练的效率
     print('Loading weights into state dict...')
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')

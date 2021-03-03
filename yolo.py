@@ -25,9 +25,12 @@ from utils.utils import (DecodeBox, bbox_iou, letterbox_image,
 #--------------------------------------------#
 class YOLO(object):
     _defaults = {
-        "model_path"        : 'model_data/yolov4_tiny_weights_coco.pth',
+        #"model_path"        : 'model_data/yolov4_tiny_weights_voc.pth',
+        #"model_path": 'model_data/voc_self_20.pth',
+        "model_path": 'model_data/bimac_3.pth',
         "anchors_path"      : 'model_data/yolo_anchors.txt',
-        "classes_path"      : 'model_data/coco_classes.txt',
+        #"classes_path"      : 'model_data/voc_classes.txt',
+        "classes_path": 'model_data/bimac_classes.txt',
         "model_image_size"  : (416, 416, 3),
         "confidence"        : 0.5,
         "iou"               : 0.3,
